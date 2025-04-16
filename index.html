@@ -7,9 +7,9 @@
 <body>
   <h1>This is a momentum simulator</h1>
   <form id="form1">
-    <label for="velocity">Velocity:</label><br>
+    <label for="velocity">Velocity(m/s):</label><br>
     <input type="text" id="velocity" name="velocity"><br>
-    <label for="mass">Mass:</label><br>
+    <label for="mass">Mass(kg):</label><br>
     <input type="text" id="mass" name="mass">
   </form>
   <button onclick="myFunction()">Submit</button>
@@ -19,7 +19,7 @@
       var text = "";
       var i;
       for (i = 0; i < x.length ;i++) {
-        text += x.elements[i].value + "<br>";
+        text += x.elements[i].value;
       }
       document.getElementById("output").innerHTML = text;
     }
