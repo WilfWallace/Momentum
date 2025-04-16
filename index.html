@@ -4,3 +4,25 @@
   <meta name="viewport" content="width=device-width", initial-scale=1.0>
   <title>Momentum simulator</title>
 </head>
+<body>
+  <h1>This is a momentum simulator</h1>
+  <form id="form1">
+    <label for="velocity">Velocity:</label><br>
+    <input type="text" id="velocity" name="velocity"><br>
+    <label for="mass">Mass:</label><br>
+    <input type="text" id="mass" name="mass">
+  </form>
+  <button onclick="myFunction()">Submit</button>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("form1");
+      var text = "";
+      var i;
+      for (i = 0; i < x.length ;i++) {
+        text += x.elements[i].value + "<br>";
+      }
+      document.getElementById("output").innerHTML = text;
+    }
+  </script>
+  <p id="output"></p>
+</body>
