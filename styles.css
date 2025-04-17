@@ -15,7 +15,7 @@ body {
 
 #box{
 	position: relative;
-	width: 650px;
+	width: 675px;
 	height: 100px;
 	background-color: blue;
 	animation-name: movebox;
