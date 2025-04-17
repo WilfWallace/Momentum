@@ -15,7 +15,7 @@ body {
 
 #box{
 	position: relative;
-	width: 100px;
+	width: 800px;
 	height: 100px;
 	background-color: blue;
 	animation-name: movebox;
@@ -23,7 +23,7 @@ body {
 }
 
 @keyframes movebox {
-	0% {left: 0px; right: 0;}
-	50% {right: 0px; left: 0;}
-	100% {left: 0px; right: 0;}
+	0% {}
+	50% {}
+	100% {}
 }
