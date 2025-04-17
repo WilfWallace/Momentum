@@ -16,8 +16,8 @@ body {
 #box{
 	position: relative;
 	left: 0px;
-	width: 100px;
-	height: 100px;
+	width: 5vw ;
+	height: 5vw ;
 	background-color: blue;
 	animation-name: movebox;
 	animation-duration: 10s;
